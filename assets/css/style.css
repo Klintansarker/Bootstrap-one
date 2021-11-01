@@ -1,0 +1,129 @@
+
+
+
+.navbar .nav-item {
+  padding-left: 1em;
+}
+.navbar .nav-link {
+  text-transform: uppercase;
+}
+.klintan {
+  font-size: 60px;
+  color: rgba(0, 0, 255, 0.637);
+}
+#start {
+  background-image: url(../imgs/Screenshot_20210823-171827_Facebook.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 270px;
+}
+#start .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.du {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+#videos-h {
+  background-image: url(../imgs/FB_IMG_1614092319786.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 200px;
+}
+
+#videos-h .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.kl {
+  width: 100%;
+  height: 250px;
+}
+.dj {
+  width: 33%;
+  display: inline;
+}
+#copyright {
+  background: #000;
+}
+/* about us section start */
+#aboutus {
+  background-image: url(../imgs/FB_IMG_1614092319786.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  /* background: url(../imgs/FB_IMG_1614092319786.jpg,rgba (0, 0, 0, 0.7)); */
+}
+.sak {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+#ads-inf i {
+  font-size: 25px;
+}
+#ads-inf h3 {
+  color: #fff;
+}
+
+#testimonial .slick-prev:before ,
+#testimonial .slick-next::before{
+  color: #000;
+}
+
+
+
+/* about us section end */
+/* services section start */
+#services {
+  background-image: url(../imgs/FB_IMG_1597899471188.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+  /* background: url(../imgs/FB_IMG_1614092319786.jpg,rgba (0, 0, 0, 0.7)); */
+}
+/* services section end */
+
+/* blog section start */
+.cd {
+  /* width: 100%; */
+  height: 200px;
+}
+/* blog section start */
+@media (max-width: 576px){
+  #start {
+    height: 350px;
+    margin-top: 0px;
+  }
+  .dj {
+    width: 100%;
+  }
+  .sak {
+    width: 200px;
+    height: 200px;
+  }
+}
